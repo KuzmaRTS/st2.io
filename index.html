@@ -97,15 +97,20 @@
                     <div class="modal-body">
                         <form>
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Телефон</label>
+                              <label for="exampleInputEmail1" class="form-label">Почта</label>
                               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                               <div id="emailHelp" class="form-text">Мы никогда никому не передадим ваш номер телефона.</div>
                             </div>
                             <div class="mb-3">
-                              <label for="exampleInputPassword1" class="form-label">Почта</label>
+                              <label for="exampleInputPassword1" class="form-label">Пароль</label>
                               <input type="password" class="form-control" id="exampleInputPassword1">
                             </div>
-                          </form>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Проверить меня</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="bbt" data-bs-dismiss="modal">Есть вопрос</button>
@@ -121,7 +126,10 @@
         <div class="row pt-5"><img src="img\Rectangle 66 (1).png" alt="map"></div>
     </div>
     <div class="container">
-        <form class="row g-3 needs-validation" novalidate>
+      <div class="row g-3">
+
+      
+        <form class=" needs-validation" novalidate>
             <div class="col-md-4">
               <label for="validationCustom01" class="form-label">Имя</label>
               <input type="text" class="form-control" id="validationCustom01" value="Иван" required>
@@ -184,7 +192,7 @@
             <div class="col-12">
               <button class="bbt" type="submit">Отправить форму</button>
             </div>
-          </form>
+        </div>
     </div>
     <div class="container pt-5">
         <div class="xui">
